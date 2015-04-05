@@ -10,7 +10,7 @@ Include
 ```
 in your project.
 
-To multiply two numbers, you must create them as `sds` objects. Don't forget to free them when you're done ising them with the `sdsfree()` function.
+To multiply two numbers, you must create them as `sds` objects. Don't forget to free them when you're done using them with the `sdsfree()` function.
 ```C
 sds num1 = sdsnew("37491656398456238945698345");
 sds num2 = sdsnew("937598456239645967892354");
