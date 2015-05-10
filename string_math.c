@@ -1,18 +1,7 @@
 
 #include <string.h>
 #include "sds.h"
-
-
-int charToInt(char);
-int compare(char*, char*);
-void reverse(sds);
-sds intToString(int);
-sds prepend(char*, sds);
-sds substr(sds, int, int);
-sds padZeroes(char*, char*);
-sds addNumbers(sds, sds);
-sds subtractNumbers(sds, sds);
-sds multiplyNumbers(sds, sds);
+#include "string_math.h"
 
 
 int charToInt(char c){
